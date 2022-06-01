@@ -1,0 +1,822 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Quicksand', cursive;
+}
+
+.background1{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(images/wallpaper.png);
+	background-position: center;
+}
+
+nav ul li{
+	width: 100px;
+	margin: 10px;
+	padding: 10px;
+}
+
+.nav ul li a{
+	text-decoration: none;
+	color: #622569;
+}
+
+.notes{
+	margin: auto;
+	width: 100%;
+}
+
+.audio{
+	width: 100%;
+	height: 60px;
+	position: center;
+	float: center;
+}
+
+.title1{
+	position: absolute;
+	bottom: 10%;
+	left:  50%;
+	transform: translate(-50%,-50%)
+}
+
+.text1{
+	color:  white;
+	font-size: 35px;
+	border: 8px solid purple;
+}
+
+.gotop{
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	background: #d64161;
+	bottom: 40px;
+	right: 50px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	color: white;
+	font-size: 20px;
+}
+
+footer1{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right:0;
+	height: auto;
+	width: 100vw;
+	font-family: "Quicksand";
+	padding-top: 30px;
+}
+
+.footer-bottom{
+	width: 100%;
+	padding: 10px 0px;
+	text-align: center;
+}
+
+.footer-bottom p{
+	font-size: 15px;
+	word-spacing: 2px;
+	text-transform: capitalize;
+}
+
+.background2{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(images/wallpaper.png);
+	background-position: center;
+}
+
+.title2{
+	position: center;
+	width: 20%;
+	border: 3px solid purple;
+}
+
+.table1{
+	border-collapse: collapse;
+	margin-left: 25px 0;
+	font-size: 0.9em;
+	min-width: 600px;
+	border-radius: 5px 5px 0 0;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.table1 thead tr{
+	background-color: plum;
+	color: black;
+	text-align: center;
+	font-weight: bold;
+}
+
+.table1 th{
+	padding: 12px 15px;
+}
+
+.table1 td{
+	padding: 12px 15px;
+}
+
+.table1 tbody tr{
+	border-bottom: 1px solid black;
+}
+
+.table1 tbody tr: last-of-type{
+	background-color: 2px solid black
+}
+
+.gotop{
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	background: #d64161;
+	bottom: 40px;
+	right: 50px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	color: white;
+	font-size: 20px;
+}
+
+footer2{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right:0;
+	height: auto;
+	width: 100vw;
+	font-family: "Quicksand";
+	padding-top: 30px;
+	color: black;
+}
+
+.background3{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(images/wallpaper.png);
+	background-position: center;
+}
+
+.title3{
+	position: center;
+	width: 20%;
+	border: 3px solid purple;
+}
+
+.video1{
+	position: center;
+	width: 28%;
+	height: 190px;
+	float: center;
+	margin-left: 100px;
+	margin-right: 100px;
+	border: 3px solid purple;
+}
+
+.in-text1{
+	width: 70%;
+	margin: auto;
+	border: 4px solid #622569;
+}
+
+.in-text1 a:link{
+	text-decoration: none;
+}
+
+.in-text1 abbr{
+	text-decoration: none;
+}
+
+.picture1{
+	width: 16%;
+	height: 290px;
+	display: block;
+	margin: 5px auto;
+	border: 3px solid purple;
+}
+
+.picture2{
+	width: 28%;
+	height: 280px;
+	display: block;
+	margin: 5px auto;
+	border: 3px solid purple;
+}
+
+.picture3{
+	width: 16%;
+	height: 290px;
+	display: block;
+	margin: 5px auto;
+	border: 3px solid purple;
+}
+
+.gotop{
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	background: #d64161;
+	bottom: 40px;
+	right: 50px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	color: white;
+	font-size: 20px;
+}
+
+footer3{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right:0;
+	height: auto;
+	width: 100vw;
+	font-family: "Quicksand";
+	padding-top: 30px;
+	color: black;
+}
+
+.background4{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(images/wallpaper.png);
+	background-position: center;
+}
+
+.title4{
+	position: center;
+	width: 20%;
+	border: 3px solid purple;
+}
+
+.animation1{	
+	border: 3px solid purple;
+}
+
+.picture4{
+	width: 45%;
+	height: 300px;
+	display: block;
+	margin: 5px auto;
+	border: 3px solid purple;
+}
+
+.table2{
+	border-collapse: collapse;
+	margin-left: 25px 0;
+	font-size: 0.9em;
+	min-width: 600px;
+	border-radius: 5px 5px 0 0;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.table2 thead tr{
+	background-color: plum;
+	color: black;
+	text-align: center;
+	font-weight: bold;
+}
+
+.table2 th{
+	padding: 12px 15px;
+}
+
+.table2 td{
+	padding: 12px 15px;
+}
+
+.table2 tbody tr{
+	border-bottom: 1px solid black;
+}
+
+.table2 tbody tr: last-of-type{
+	background-color: 2px solid black
+}
+
+.gotop{
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	background: #d64161;
+	bottom: 40px;
+	right: 50px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	color: white;
+	font-size: 20px;
+}
+
+footer4{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right:0;
+	height: auto;
+	width: 100vw;
+	font-family: "Quicksand";
+	padding-top: 30px;
+	color: black;
+}
+
+.background5{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(images/wallpaper.png);
+	background-position: center;
+}
+
+.title5{
+	position: center;
+	width: 20%;
+	border: 3px solid purple;
+}
+
+.animation2{	
+	border: 3px solid purple;
+}
+
+.table3{
+	border-collapse: collapse;
+	margin-left: 25px 0;
+	font-size: 0.9em;
+	min-width: 600px;
+	border-radius: 5px 5px 0 0;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.table3 thead tr{
+	background-color: plum;
+	color: black;
+	text-align: center;
+	font-weight: bold;
+}
+
+.table3 th{
+	padding: 12px 15px;
+}
+
+.table3 td{
+	padding: 12px 15px;
+}
+
+.table3 tbody tr{
+	border-bottom: 1px solid black;
+}
+
+.table3 tbody tr: last-of-type{
+	background-color: 2px solid black
+}
+
+.gotop{
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	background: #d64161;
+	bottom: 40px;
+	right: 50px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	color: white;
+	font-size: 20px;
+}
+
+footer5{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right:0;
+	height: auto;
+	width: 100vw;
+	font-family: "Quicksand";
+	padding-top: 30px;
+	color: black;
+}
+
+.background6{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(images/wallpaper.png);
+	background-position: center;
+}
+
+.title6{
+	position: center;
+	width: 20%;
+	border: 3px solid purple;
+}
+
+.in-text4{
+	width: 70%;
+	margin: auto;
+	border: 4px solid #622569;
+}
+
+.in-text4 abbr{
+	text-decoration: none;
+}
+
+.picture5{
+	width: 30%;
+	height: 300px;
+	display: block;
+	margin: 5px auto;
+	border: 3px solid purple;
+}
+
+.video2{
+	position: center;
+	width: 30%;
+	height: 220px;
+	display: block;
+	margin: 5px auto;
+	border: 3px solid purple;
+}
+
+.picture6{
+	width: 30%;
+	height: 300px;
+	display: block;
+	margin: 5px auto;
+	border: 3px solid purple;
+}
+
+.gotop{
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	background: #d64161;
+	bottom: 40px;
+	right: 50px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	color: white;
+	font-size: 20px;
+}
+
+footer6{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right:0;
+	height: auto;
+	width: 100vw;
+	font-family: "Quicksand";
+	padding-top: 30px;
+	color: black;
+}
+
+.background7{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(images/wallpaper.png);
+	background-position: center;
+}
+
+.title7{
+	position: center;
+	width: 20%;
+	border: 3px solid purple;
+}
+
+.in-text5{
+	width: 70%;
+	margin: auto;
+	border: 4px solid #622569;
+}
+
+.picture7{
+	width: 30%;
+	height: 300px;
+	display: block;
+	margin: 5px auto;
+	border: 3px solid purple;
+}
+
+.picture8{
+	width: 23%;
+	height: 300px;
+	display: block;
+	margin: 5px auto;
+	border: 3px solid purple;
+}
+
+.gotop{
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	background: #d64161;
+	bottom: 40px;
+	right: 50px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	color: white;
+	font-size: 20px;
+}
+
+footer7{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right:0;
+	height: auto;
+	width: 100vw;
+	font-family: "Quicksand";
+	padding-top: 30px;
+	color: black;
+}
+
+.background8{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(images/wallpaper.png);
+	background-position: center;
+}
+
+.title8{
+	position: center;
+	width: 20%;
+	border: 3px solid purple;
+}
+
+.container{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 30px; 
+}
+
+.container .contactinfo{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+}
+
+.container .contactinfo .box{
+	position: relative;
+	padding: 18px 0;
+	display: flex;
+}
+
+.container .contactinfo .box .text{
+	display: flex;
+	margin-left: 20px;
+	font-size: 15px;
+	color: black;
+	flex-direction: column;
+	font-weight: 300;
+}
+
+.container .contactinfo .box .text h3{
+	font-weight: 500;
+	color: black;
+}
+
+.contactform{
+	width: 40%;
+	padding: 40px;
+	background: violet;
+}
+
+.contactform h3{
+	font-size: 30px;
+	color: white;
+	font-weight: 500;
+}
+
+.contactform .inputbox{
+	position: relative;
+	width: 100%;
+	margin-top: 10px;
+}
+
+.contactform .inputbox input,
+.contactform .inputbox textarea{
+	width: 100%;
+	padding: 5px 0;
+	font-size: 16px;
+	margin: 10px 0;
+	border: none;
+	border-bottom: 2px solid purple;
+	outline: none;
+	resize: none;
+}
+
+.contactform .inputbox span{
+	position: absolute;
+	left: 0;
+	padding: 5px 0;
+	font-size: 16px;
+	margin: 10px 0;
+	pointer-events: none;
+	transition: 0.5s;
+	color: palevioletred;
+}
+
+.contactform .inputbox input:focus ~ span
+.contactform .inputbox input:valid ~ span
+.contactform .inputbox input:focus ~ span
+{
+	color: white;
+	font-size: 12px;
+	transform: translateY(-20px);
+}
+
+.contactform .inputbox input [type="submit"]
+{
+	width: 100px;
+	background: white;
+	color: plum;
+	border: none;
+	cursor: pointer;
+	padding: 10px;
+	font-size: 18px;
+}
+
+.gotop{
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	background: #d64161;
+	bottom: 40px;
+	right: 50px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	color: white;
+	font-size: 20px;
+}
+
+footer8{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right:0;
+	height: auto;
+	width: 100vw;
+	font-family: "Quicksand";
+	padding-top: 30px;
+	color: black;
+}
+
+.background9{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(images/wallpaper.png);
+	background-position: center;
+}
+
+.title9{
+	position: center;
+	width: 20%;
+	border: 3px solid purple;
+}
+
+.in-text6{
+	width: 30%;
+	margin: auto;
+}
+
+.picture9{
+	width: 30%;
+	height: 280px;
+	display: block;
+	margin: 5px auto;
+	border: 3px solid purple;
+}
+
+.in-text7{
+	width: 20%;
+	margin: auto;
+}
+
+.picture10{
+	width: 30%;
+	height: 300px;
+	display: block;
+	margin: 5px auto;
+	border: 3px solid purple;
+}
+
+.in-text8{
+	width: 20%;
+	margin: auto;
+}
+
+.picture11{
+	width: 30%;
+	height: 280px;
+	display: block;
+	margin: 5px auto;
+	border: 3px solid purple;
+}
+
+.in-text9{
+	width: 20%;
+	margin: auto;
+}
+
+.picture12{
+	width: 35%;
+	height: 280px;
+	display: block;
+	margin: 5px auto;
+	border: 3px solid purple;
+}
+
+.in-text10{
+	width: 30%;
+	margin: auto;
+}
+
+.picture13{
+	width: 25%;
+	height: 400px;
+	display: block;
+	margin: 5px auto;
+	border: 3px solid purple;
+}
+
+.in-text11{
+	width: 20%;
+	margin: auto;
+}
+
+.picture14{
+	width: 26%;
+	height: 290px;
+	display: block;
+	margin: 5px auto;
+	border: 3px solid purple;
+}
+
+.in-text12{
+	width: 30%;
+	margin: auto;
+}
+
+.picture15{
+	width: 30%;
+	height: 300px;
+	display: block;
+	margin: 5px auto;
+	border: 3px solid purple;
+}
+
+.in-text13{
+	width: 20%;
+	margin: auto;
+}
+
+.picture16{
+	width: 30%;
+	height: 290px;
+	display: block;
+	margin: 5px auto;
+	border: 3px solid purple;
+}
+
+.in-text14{
+	width: 30%;
+	margin: auto;
+}
+
+.picture17{
+	width: 30%;
+	height: 300px;
+	display: block;
+	margin: 5px auto;
+	border: 3px solid purple;
+}
+
+.in-text15{
+	width: 20%;
+	margin: auto;
+}
+
+.video3{
+	position: center;
+	width: 18%;
+	height: 480px;
+	display: block;
+	margin: 5px auto;
+	border: 3px solid purple;
+}
+
+.gotop{
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	background: #d64161;
+	bottom: 40px;
+	right: 50px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	color: white;
+	font-size: 20px;
+}
+
+footer9{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right:0;
+	height: auto;
+	width: 100vw;
+	font-family: "Quicksand";
+	padding-top: 30px;
+	color: black;
+}
